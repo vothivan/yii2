@@ -1,0 +1,122 @@
+/*---------- sprite css ----------*/
+[class*="icon12"]{
+  width:12px;
+  height:12px;
+  display:inline-block;
+  vertical-align: middle;
+}
+[class*="icon16"]{
+	width:16px;
+	height:16px;
+	display:inline-block;
+	vertical-align:middle;
+}
+[class*="icon20"]{
+  width:20px;
+  height:20px;
+  display:inline-block;
+  vertical-align:middle;
+}
+[class*="icon24"]{
+	width:24px;
+	height:24px;
+	display:inline-block;
+	vertical-align:middle;
+}
+[class*="icon28"]{
+  width:28px;
+  height:28px;
+  display:inline-block;
+  vertical-align:middle;
+}
+[class*="icon32"]{
+	width:32px;
+	height:32px;
+	display:inline-block;
+	vertical-align:middle;
+}
+[class*="icon36"]{
+  width:36px;
+  height:36px;
+  display:inline-block;
+  vertical-align:middle;
+}
+[class*="icon48"]{
+  width:48px;
+  height:48px;
+  display:inline-block;
+  vertical-align:middle;
+}
+[class*="icon64"]{
+  width:64px;
+  height:64px;
+  display:inline-block;
+  vertical-align:middle;
+}
+.icon24-phone{
+  background-image: url("../images/v2/icon24-phone.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.icon24-check{
+  background-image: url("../images/v2/icon24-check.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.icon32-user{
+  background-image: url("../images/v2/icon32-user.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.icon32-cart{
+  background-image: url("../images/v2/icon32-cart.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.icon48-commit_1{
+  background-image: url("../images/v2/icon48-commit_1.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.icon48-commit_2{
+  background-image: url("../images/v2/icon48-commit_2.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.icon-mall{
+  background-image: url("../images/v2/icon-mall.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 23px;
+  height: 10px;
+  display: inline-block;
+}
+.icon-postmartmall-shop{
+  background-image: url("../images/v2/icon-postmartmall-shop.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 14px;
+  display: inline-block;
+}
+.icon32-zalo{
+  background-image: url("../images/v2/icons/icon32-zalo.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.icon28-zalo-square{
+  background-image: url("../images/v2/icons/icon28-zalo-square.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.icon-ocop{
+  background-image: url("../images/v2/icons/icon-ocop3.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: percentage(104/400);
+  background-size: 100% 100%;
+}
+/*---------- end sprite css ----------*/

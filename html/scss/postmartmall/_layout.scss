@@ -1,0 +1,82 @@
+/*---------- postmartmall layout css ----------*/
+.site-postmartmall{
+  .btn-primary{
+    background-color: $color-primary-mall;
+    border-color: $color-primary-mall;
+  }
+  .c-box .c-box__title .c-box__title__name:before{
+    background: $color-primary-mall;
+  }
+  .l-nav{
+    background: $color-primary-mall;
+  }
+  .c-menu-outer{
+    background: $color-primary-mall;
+  }
+  .c-alias__btn{
+    background: $color-primary-mall-dark;
+  }
+  .c-tabs__title{
+    ul{
+      li{
+        &.active{
+          a{
+            background: $color-primary-mall;
+          }
+        }
+      }
+    }
+  }
+  .c-tabs__filter ul li.active a{
+    color: $color-primary-mall;
+  }
+  .l-footer__email{
+    background-color: $color-primary-mall;
+  }
+  .c-footer-new__item__date{
+    border-color: $color-primary-mall;
+  }
+  .c-footer-new__item__date label{
+    color: $color-primary-mall;
+  }
+  .c-footer-new__item__date p{
+    color: $color-primary-mall;
+  }
+  .c-product-right__title{
+    color: $color-primary-mall;
+  }
+  .c-supplier-info__right ul li span{
+    color: $color-primary-mall;
+  }
+  .c-whitebox .c-whitebox__title .c-whitebox__title__name{
+    color: $color-primary-mall;
+  }
+  .c-commit-box__item__inner__content h2{
+    color: $color-primary-mall;
+  }
+  .c-slider .owl-carousel .owl-dots .owl-dot.active{
+    background: $color-primary-mall;
+  }
+}
+//postmartmall layout responsive css
+@media (min-width: $screen-xs-small-min){// mobile lanscape
+
+}
+@media (min-width: $screen-sm-min){// ipad 768px
+
+}
+@media (min-width: $screen-md-min){//pc 1024px up
+  .site-postmartmall{
+    .c-logo img{
+      max-height: 60px;
+    }
+  }
+}
+@media (min-width: $screen-lg-min){//pc 1200px up
+
+}
+@media (min-width: $screen-xl-min){//pc 1440px up
+
+}
+//end postmartmall layout responsive css
+/*---------- end postmartmall layout css ----------*/

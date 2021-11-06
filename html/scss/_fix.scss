@@ -1,0 +1,186 @@
+/*---------- fix owl carousel css ----------*/
+.owl-carousel .owl-item img{
+  transform-style:flat;
+}
+/*---------- end fix owl carousel css ----------*/
+/*---------- fix bootstrap css ----------*/
+.row.xs-reset-all{
+  margin-left:0;
+  margin-right:0;
+}
+[class*="col-xs-"].reset-padding-all{
+  padding-left:0;
+  padding-right:0;
+}
+[class*="col-xs-"].reset-padding-left{
+  padding-left:0;
+}
+[class*="col-xs-"].reset-padding-right{
+  padding-right:0;
+}
+.row.xs-reset-5{
+  margin-left:-5px;
+  margin-right:-5px;
+}
+[class*="col-xs-"].padding-all-5{
+  padding-left:5px;
+  padding-right:5px;
+}
+[class*="col-xs-"].padding-left-5{
+  padding-left:5px;
+}
+[class*="col-xs-"].padding-right-5{
+  padding-right:5px;
+}
+.row.xs-reset-10{
+  margin-left:-10px;
+  margin-right:-10px;
+}
+[class*="col-xs-"].padding-all-10{
+  padding-left:10px;
+  padding-right:10px;
+}
+[class*="col-xs-"].padding-left-10{
+  padding-left:10px;
+}
+[class*="col-xs-"].padding-right-10{
+  padding-right:10px;
+}
+@media (min-width: $screen-sm-min){
+  .row.sm-reset-all{
+    margin-left:0;
+    margin-right:0;
+  }
+  [class*="col-sm-"].reset-padding-all{
+    padding-left:0;
+    padding-right:0;
+  }
+  [class*="col-sm-"].reset-padding-left{
+    padding-left:0;
+  }
+  [class*="col-sm-"].reset-padding-right{
+    padding-right:0;
+  }
+  .row.sm-reset-5{
+    margin-left:-5px;
+    margin-right:-5px;
+  }
+  [class*="col-sm-"].padding-all-5{
+    padding-left:5px;
+    padding-right:5px;
+  }
+  [class*="col-sm-"].padding-left-5{
+    padding-left:5px;
+  }
+  [class*="col-sm-"].padding-right-5{
+    padding-right:5px;
+  }
+  .row.sm-reset-10{
+    margin-left:-10px;
+    margin-right:-10px;
+  }
+  [class*="col-sm-"].padding-all-10{
+    padding-left:10px;
+    padding-right:10px;
+  }
+  [class*="col-sm-"].padding-left-10{
+    padding-left:10px;
+  }
+  [class*="col-sm-"].padding-right-10{
+    padding-right:10px;
+  }
+}
+@media (min-width: $screen-md-min){
+  .row.md-reset-all{
+    margin-left:0;
+    margin-right:0;
+  }
+  [class*="col-md-"].reset-padding-all{
+    padding-left:0;
+    padding-right:0;
+  }
+  [class*="col-md-"].reset-padding-left{
+    padding-left:0;
+  }
+  [class*="col-md-"].reset-padding-right{
+    padding-right:0;
+  }
+  .row.md-reset-5{
+    margin-left:-5px;
+    margin-right:-5px;
+  }
+  [class*="col-md-"].padding-all-5{
+    padding-left:5px;
+    padding-right:5px;
+  }
+  [class*="col-md-"].padding-left-5{
+    padding-left:5px;
+  }
+  [class*="col-md-"].padding-right-5{
+    padding-right:5px;
+  }
+  .row.md-reset-10{
+    margin-left:-10px;
+    margin-right:-10px;
+  }
+  [class*="col-md-"].padding-all-10{
+    padding-left:10px;
+    padding-right:10px;
+  }
+  [class*="col-md-"].padding-left-10{
+    padding-left:10px;
+  }
+  [class*="col-md-"].padding-right-10{
+    padding-right:10px;
+  }
+}
+@media (min-width: $screen-lg-min){
+  .row.lg-reset-all{
+    margin-left:0;
+    margin-right:0;
+  }
+  [class*="col-lg-"].reset-padding-all{
+    padding-left:0;
+    padding-right:0;
+  }
+  [class*="col-lg-"].reset-padding-left{
+    padding-left:0;
+  }
+  [class*="col-lg-"].reset-padding-right{
+    padding-right:0;
+  }
+  .row.lg-reset-5{
+    margin-left:-5px;
+    margin-right:-5px;
+  }
+  [class*="col-lg-"].padding-all-5{
+    padding-left:5px;
+    padding-right:5px;
+  }
+  [class*="col-lg-"].padding-left-5{
+    padding-left:5px;
+  }
+  [class*="col-lg-"].padding-right-5{
+    padding-right:5px;
+  }
+  .row.lg-reset-10{
+    margin-left:-10px;
+    margin-right:-10px;
+  }
+  [class*="col-lg-"].padding-all-10{
+    padding-left:10px;
+    padding-right:10px;
+  }
+  [class*="col-lg-"].padding-left-10{
+    padding-left:10px;
+  }
+  [class*="col-lg-"].padding-right-10{
+    padding-right:10px;
+  }
+}
+/*---------- end fix bootstrap css ----------*/
+/*---------- fix wordpress css ----------*/
+.wp-caption{
+  max-width: 100%;
+}
+/*---------- end fix wordpress css ----------*/

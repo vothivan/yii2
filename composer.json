@@ -1,0 +1,51 @@
+{
+  "name": "lgs/voso",
+  "description": "voso",
+  "keywords": [
+    "voso"
+  ],
+  "homepage": "https://voso.vn/",
+  "type": "project",
+  "license": "BSD-3-Clause",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "~2.0.14",
+    "yiisoft/yii2-redis": "~2.0.0",
+    "dmstr/yii2-adminlte-asset": "2.*",
+    "yiisoft/yii2-sphinx": "*",
+    "iutbay/yii2-fontawesome": "*",
+    "yiisoft/yii2-debug": "*",
+    "yiisoft/yii2-gii": "*",
+    "yiisoft/yii2-swiftmailer": "*",
+    "rmrevin/yii2-minify-view": "^1.15",
+    "nodge/yii2-eauth": "~2.0",
+    "imbo/imboclient": "*",
+    "alexinator1/yii2-jta": "*",
+    "kartik-v/yii2-widget-datetimepicker": "*",
+    "moonlandsoft/yii2-phpexcel": "*",
+    "phpoffice/phpexcel": "dev-develop",
+    "vilochane/yii2-barcode-generator": "*",
+    "php-amqplib/php-amqplib": "*",
+    "xj/yii2-qrcode-widget": "*",
+    "mpdf/mpdf": "6.1.0",
+    "kartik-v/yii2-grid": "@dev",
+    "kartik-v/yii2-export": "@dev",
+    "yiisoft/yii2-authclient": "^2.2",
+    "phpseclib/phpseclib": "^2.0",
+    "spomky-labs/jose": "^7.1",
+    "immusen/yii2-swoole-mqtt": "~1.0"
+  },
+  "require-dev": {
+  },
+  "config": {
+    "process-timeout": 1800
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}

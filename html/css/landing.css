@@ -1,0 +1,28 @@
+.main-content-full {
+  width: auto;
+  margin-bottom: 30px;
+  float: none;
+  padding: 15px;
+  background: #fff;
+  border-radius: 16px 0;
+}
+.landing-banner{
+  margin-top: -30px;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.landing-banner img{
+    width: 100%;
+}
+@media (min-width: 768px){
+  .landing-banner{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (min-width: 1200px){
+  .main-content-full .list-browse-pdr .if-item-slide{
+    width: 33.33%;
+  }
+}

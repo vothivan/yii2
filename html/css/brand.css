@@ -1,0 +1,508 @@
+.find-brand{
+    padding: 10px 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+.find-brand strong,
+.find-brand a{
+    display: inline-block;
+}
+.find-brand a{
+    color: #000;
+    width: 19px;
+}
+.find-brand a.last-brand{
+    width: 30px;
+}
+.find-brand a:hover{
+    color: #F00;
+    text-decoration: none;
+    font-weight: bold;
+}
+.brand-logo{
+    background: #fff;
+    border: 1px solid #dddddd;
+    margin-bottom: 10px;
+}
+.br-icon .icon{
+    display: block;
+}
+.br-logo{
+    background: url("../images/brand/line.png") no-repeat;
+    background-size: contain;
+    background-position: center left;
+}
+.br-logo .item{
+    width: 20%;
+    padding: 0 15px;
+    float: left;
+}
+.br-logo .item img{
+    width: 100%;
+    transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+.br-logo .item:hover img{
+    margin-left: -15px;
+}
+.br-nav{
+}
+.br-nav ul li a{
+    background: #fff;
+    display: block;
+    border: 1px solid #dddddd;
+    margin-top: -1px;
+    width: 40px;
+    height: 40px;
+}
+.br-nav ul li a img{
+    width: 100%;
+}
+.br-nav ul li a:hover{
+    background: #e41c2c;
+}
+.br-nav{
+    position: fixed;
+    top: 35%;
+    left: 50px;
+}
+.brand-head{
+    background: #fff;
+    border: 1px solid #dddddd;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    /*padding: 15px 0;*/
+    font-weight: lighter;
+}
+.brand-head img{
+    width: 100%;
+}
+.brand-intro{
+    height: 70px;
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: url("../images/brand/line.png") no-repeat;
+    background-size: contain;
+    background-position: center left;
+}
+.brand-intro .text{
+    padding: 5px;
+}
+.brand-nav .nav-tabs > li.active > a,
+.brand-nav .nav-tabs > li.active > a:hover,
+.brand-nav .nav-tabs > li.active > a:focus{
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid #e41c2c;
+}
+.brand-nav .nav-tabs > li > a{
+    border-radius: 0;
+    border-bottom-color: transparent;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #000;
+    border: none;
+}
+.brand-nav .nav > li > a:hover,
+.brand-nav .nav > li > a:focus{
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid #e41c2c;
+}
+.brand-nav .nav-tabs{
+    border-bottom: none;
+    text-align: center;
+}
+.brand-nav .nav-tabs > li{
+    float: none;
+    display: inline-block;
+}
+.brand-nav{
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+.brand-tabs{
+    padding: 0;
+}
+.brand-pd-item{
+    border: 1px solid #ddd;
+    background: #fff;
+    margin-bottom: 30px;
+    height: 448px;
+}
+.brand-pd-item .price{
+    padding: 10px;
+    font-weight: lighter;
+}
+.brand-pd-item .price p{
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.brand-pd-item .price h1{
+    font-size: 14px;
+    font-weight: lighter;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.brand-pd-item .price h1 a{
+    color: #000000;
+}
+.brand-pd-item .price h1 a:hover{
+    color: #0C57B6;
+    text-decoration: none;
+}
+.brand-pd-item .info{
+    padding: 0 10px;
+    font-size: 12px;
+    color: #999;
+}
+.brand-pd-item .thumb a{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 288px;
+    height: 288px;
+}
+.brand-pd-item .thumb img{
+    max-width: 288px;
+    max-height: 288px;
+}
+.brand-pd-item .other-pd{
+    margin: 10px;
+    font-weight: lighter;
+    border-top: 1px solid #ddd;
+    padding: 10px 0 0;
+    font-size: 12px;
+}
+.brand-pd-item .other-pd a:focus,
+.brand-pd-item .other-pd a:hover{
+    text-decoration: none;
+}
+.brand-paginator{
+    background: #fff;
+}
+.other-brand{
+    font-weight: lighter;
+    border-top: 1px solid #000;
+    margin-bottom: 20px;
+}
+.other-brand p{
+    margin-bottom: 50px;
+}
+.other-brand .brand-item{
+    background: #fff;
+    display: block;
+    padding: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.categories-list{
+    padding: 15px 5px;
+    margin-bottom: 10px;
+}
+.categories-list .item{
+    width: 14.44%;
+    background: #ffffff;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: lighter;
+    margin-left: -5px;
+    margin-top: -1px;
+    position: relative;
+}
+.categories-list .item a{
+    display: block;
+    color: #000000;
+    border: 1px solid #ddd;
+    padding: 15px 0;
+    transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+.categories-list .item img{
+    width: 40px;
+}
+.categories-list .item span{
+    display: block;
+}
+.categories-list .item:hover{
+    z-index: 999;
+}
+.categories-list .item a:hover{
+    border-color: #e41c2c;
+    color: #e41c2c;
+    text-decoration: none;
+}
+.categories-list-2{
+    background: #fff;
+    font-weight: lighter;
+    padding: 20px 0;
+    margin-top: -1px;
+    border: 1px solid #ddd;
+}
+.categories-list-2 h2{
+    font-size: 20px;
+    color: #0C57B6;
+    font-weight: lighter;
+    padding: 0 0 0 15px;
+    margin: 0;
+}
+.categories-list-2 h3{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.categories-list-2 ul li a{
+    color: #000;
+}
+.categories-list-2 ul li a:hover{
+    color: #0C57B6;
+    text-decoration: none;
+}
+.categories-list-2 ul li a.see-more{
+    color: #0C57B6;
+}
+.categories-list-2 ul li a.see-more:hover{
+    text-decoration: underline;
+}
+/*responsive*/
+@media (min-width: 1200px){
+}
+@media (max-width: 1199px){
+}
+@media (min-width: 992px){
+}
+@media (max-width: 991px) {
+    .br-nav{
+        display: none;
+    }
+    .br-logo .item{
+        width: 25%;
+    }
+    .brand-head img{
+        margin-top: 10px;
+    }
+    .brand-intro{
+        height: auto;
+        margin-top: 0;
+    }
+    .brand-intro .text{
+        height: 63px;
+        margin-bottom: 5px;
+    }
+    .brand-nav .nav-tabs > li > a{
+        font-size: 16px;
+    }
+    .brand-pd-item{
+        height: 389px;
+    }
+    .brand-pd-item .thumb a{
+        width: 228px;
+        height: 228px;
+    }
+    .brand-pd-item .thumb img{
+        max-width: 228px;
+        max-height: 228px;
+    }
+    .categories-list .item {
+        width: 25.3%;
+    }
+}
+@media (min-width: 768px){
+}
+@media (max-width: 767px){
+    .brand-head img{
+        width: 150px;
+    }
+    .brand-head{
+        text-align: center;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .brand-intro{
+        background: transparent;
+    }
+    .brand-intro .text{
+        height: auto;
+    }
+    .brand-nav{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .brand-tabs{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .brand-pd-item{
+        height: 512px;
+    }
+    .other-brand{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .brand-pd-item .thumb a{
+        width: 351px;
+        height: 351px;
+    }
+    .brand-pd-item .thumb img{
+        max-width: 351px;
+        max-height: 351px;
+    }
+}
+@media (max-width: 736px){
+    .brand-pd-item{
+        height: 497px;
+    }
+    .brand-pd-item .thumb a{
+        width: 336px;
+        height: 336px;
+    }
+    .brand-pd-item .thumb img{
+        max-width: 336px;
+        max-height: 336px;
+    }
+}
+@media (max-width: 676px){
+    .find-brand strong{
+        width: 100%;
+    }
+    .brand-pd-item{
+        height: 467px;
+    }
+    .brand-pd-item .thumb a{
+        width: 306px;
+        height: 306px;
+    }
+    .brand-pd-item .thumb img{
+        max-width: 306px;
+        max-height: 306px;
+    }
+}
+@media (max-width: 640px){
+    .brand-pd-item{
+        height: 449px;
+    }
+    .brand-nav .nav-tabs > li > a {
+        font-size: 14px;
+    }
+    .brand-pd-item .thumb a{
+        width: 288px;
+        height: 288px;
+    }
+    .brand-pd-item .thumb img{
+        max-width: 288px;
+        max-height: 288px;
+    }
+}
+@media (max-width: 533px){
+    .br-logo .item{
+        width: 33.33%;
+    }
+    .brand-nav .nav-tabs > li > a {
+        font-size: 12px;
+    }
+    .brand-pd-item{
+        height: 395px;
+    }
+    .brand-pd-item .thumb a{
+        width: 234px;
+        height: 234px;
+    }
+    .brand-pd-item .thumb img{
+        max-width: 234px;
+        max-height: 234px;
+    }
+    .categories-list .item {
+        width: 33.87%;
+    }
+}
+@media (max-width: 480px){
+    .brand-pd-item {
+        height: 386px;
+    }
+    .col-brand{
+        width: 50%;
+    }
+    .brand-nav .nav-tabs > li{
+        display: block;
+    }
+    .brand-nav .nav-tabs > li.active > a, .brand-nav .nav-tabs > li.active > a:hover, .brand-nav .nav-tabs > li.active > a:focus,
+    .brand-nav .nav > li > a:hover, .brand-nav .nav > li > a:focus{
+        border-bottom: none;
+        color: #E41D2C;
+    }
+    .brand-pd-item .thumb a{
+        width: 208px;
+        height: 208px;
+    }
+    .brand-pd-item .thumb img{
+        max-width: 208px;
+        max-height: 208px;
+    }
+}
+@media (max-width: 414px){
+    .brand-pd-item {
+        height: auto;
+    }
+    .col-1{
+        width: 100%;
+    }
+    .brand-pd-item .thumb a{
+        width: 382px;
+        height: 382px;
+    }
+    .brand-pd-item .thumb img{
+        max-width: 382px;
+        max-height: 382px;
+    }
+    .categories-list .item {
+        width: 50.87%;
+    }
+}
+@media (max-width: 375px){
+    .br-logo .item{
+        width: 50%;
+    }
+    .brand-pd-item {
+        height: auto;
+    }
+    .brand-pd-item .thumb a{
+        width: 343px;
+        height: 343px;
+    }
+    .brand-pd-item .thumb img{
+        max-width: 343px;
+        max-height: 343px;
+    }
+}
+@media (max-width: 360px){
+    .brand-pd-item .thumb a{
+        width: 328px;
+        height: 328px;
+    }
+    .brand-pd-item .thumb img{
+        max-width: 328px;
+        max-height: 328px;
+    }
+}
+@media (max-width: 320px){
+    .col-brand{
+        width: 100%;
+    }
+    .brand-pd-item .thumb a{
+        width: 288px;
+        height: 288px;
+    }
+    .brand-pd-item .thumb img{
+        max-width: 288px;
+        max-height: 288px;
+    }
+}

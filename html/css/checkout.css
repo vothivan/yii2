@@ -1,0 +1,679 @@
+a, button {
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+.modal.in .modal-dialog.modal-checkout .modal-content {
+    border-radius: 20px 0;
+}
+.content-checkout {
+    /*background: #fff;
+    border-radius: 16px 0;*/
+    padding: 15px;
+}
+.content-modal .content-checkout-left {
+    border: 1px solid #ddd;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+.info-content-checkout-left label {
+    font-weight: normal;
+    display: block;
+}
+.info-content-checkout-left label .fa-question-circle,
+.info-content-checkout-left .radio.active .fa-question-circle  {
+    margin-left: 0;
+    color: #000;
+}
+.info-content-checkout-left .btn-login-modal {
+    position: relative;
+    border: none;
+    background: transparent;
+}
+.info-content-checkout-left .btn-login-modal span {
+    position: relative;
+    z-index: 3;
+    color: #fff;
+}
+.info-content-checkout-left .list-social-pop {
+    position: relative;
+}
+.info-content-checkout-left .list-social-pop  ul li {
+    padding-right: 30px;
+}
+.info-content-checkout-left .list-social-pop  ul li:first-child {
+    padding-right: 0;
+}
+.info-content-checkout-left .btn-login-modal:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #f8b31b;
+    position: absolute;
+    left: -5px;
+    top: 0;
+    border-radius: 0 16px;
+    z-index: 1;
+}
+.info-content-checkout-left .btn-login-modal:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #004689;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 0 16px;
+    z-index: 2;
+}
+.list-top-checkout ul {
+	background: #ddd;
+}
+.list-top-checkout ul li {
+	width: 33.33%;
+	float: left;
+	text-align: center;
+	min-height: 47px;
+    position: relative;
+}
+.list-top-checkout ul li .chevron {
+    position: absolute;
+    top: 0;
+    right: -14px;
+    z-index: 1;
+    display: block;
+    border: 24px solid transparent;
+    border-right: 0;
+    border-left: 14px solid #fff;
+}
+.list-top-checkout ul li .chevron:before {
+    position: absolute;
+    top: -24px;
+    right: 1px;
+    display: block;
+    border: 24px solid transparent;
+    border-right: 0;
+    border-left: 14px solid #ddd;
+    content: "";
+}
+.list-top-checkout ul li.active .chevron:before {
+    border-left: 14px solid #004689;
+}
+.list-top-checkout ul li.active {
+	background: #004689;
+	color: #fff;
+}
+.list-top-checkout ul li.active a {
+	color: #fff;
+}
+.list-top-checkout .list-step {
+	display: inline-block;
+}
+.list-top-checkout .list-step .number {
+	float: left;
+    width: 30px;
+    height: 30px;
+    background: #004689;
+    color: #fff;
+    padding-top: 5px;
+    margin-top: -5px;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.list-top-checkout ul li.active .list-step .number {
+    background: #f8b31b;
+    color: #fff;
+}
+.list-top-checkout .list-step a {
+	display: block;
+    width: auto; 
+    padding: 13px 0px;
+    text-decoration: none;
+    color: #333;
+}
+ 
+/* End Checkout */
+/* order */
+.content-checkout-new {
+    width: 210mm;
+    margin: 15px auto;
+}
+.info-invoice-content { 
+    width: 210mm;
+    height: auto;
+    background: #fff;
+    margin: 0 auto 15px;
+    border-radius: 16px 0;
+    padding: 15px;
+}
+.top-printer {
+    padding: 10px 0; 
+}
+.top-printer a { 
+    color: #333;
+}
+.top-printer:hover a {
+    text-decoration: none;
+}
+.top-invoice {
+    border-bottom: 2px solid #ddd;
+    padding: 10px 0;
+}
+.invoice-logo .img-logo {
+    float: left;
+}
+.invoice-logo .img-logo img {
+    max-width: 100%;
+}
+.text-logo {
+    margin-left: 180px; 
+}
+.text-logo p {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.info-payment-right p {
+    margin-bottom: 0; 
+    font-size: 12px;
+}
+.info-payment-right .payment {
+    color: #a00a13;
+    text-transform: uppercase;
+    border: 3px solid #a00a13;
+    padding: 8px 0px;
+    border-radius: 4px;
+    text-align: center; 
+    font-weight: 700;
+}
+.info-saller .row-s label {
+    float: left;
+    min-width: 130px;
+    font-weight: 400;
+    font-size: 12px;
+} 
+.content-invoice h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #0f9644;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 30px;
+}
+.content-invoice h3:after {
+    content: '';
+    height: 3px;
+    width: 50px;
+    background: #0f9644;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+}
+.title-invoice h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #a00a13;
+    text-align: center;
+}
+.text-note p {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.box-detail-order p {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+.thumb-info {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border: 1px solid #ddd;
+    border-radius: 16px 0;
+}
+.thumb-info a {
+    width: 98px;
+    height: 98px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.thumb-info img {
+    max-width: 98px;
+    max-height: 98px;
+    border-radius: 16px 0;
+}
+.table > tbody > tr > td, .table > tfoot > tr > td {
+    border-right: 1px solid #ddd;
+}
+/*.table > tbody > tr:last-child > td, 
+.table > tfoot > tr:last-child > td {
+    border-bottom: 1px solid #ddd;
+}*/
+.box-store .table {
+    margin-bottom: 0;
+}
+.text-thumb {
+    margin-left: 110px;
+}
+.table-invoice table thead th {
+    background: #f5f5f5;
+    border-bottom: none;
+}
+.table-invoice table tbody tr.total td {
+    background: #f5f5f5;
+}
+.content-checkout-history h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0 0 15px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.content-checkout-history .list-history {
+    margin-right: 15px;
+    position: relative;
+}
+.content-checkout-history .list-history label {
+    margin-right: 10px;
+}
+.content-checkout-history .list-history select {
+    min-width: 150px;
+}
+.content-checkout-history .list-history .fa-calendar {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    color: #c81623;
+}
+.content-checkout-history .btn-search {
+    padding: 8px 35px;
+}
+.content-checkout-history .form-inline {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+.content-checkout-history .table-bordered > thead > tr > th, 
+.content-checkout-history .table-bordered > thead > tr > td {
+    font-size: 13px;
+    text-align: center;
+    border-bottom: transparent;
+}
+.content-invoice .infomation-invoice .row-s {
+    width: 50%;
+    float: left;
+}
+.box-order-second {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.box-order-second .title-order-second {
+    background: #ddd;
+    padding: 15px;
+    margin: -15px -15px 15px;
+    text-align: center;
+    color: #333;
+    position: relative;
+}
+.box-order-second .title-order-second:after {
+    content: '';
+    width: 28px;
+    height: 32px;
+    background: url(../images/icon-order.png) no-repeat;
+    position: absolute;
+    left: 32%;
+    top: 10px;
+}
+.box-store {
+    border:1px solid #ddd;
+    padding: 15px 15px 0;
+    margin-bottom: 30px;
+}
+.box-store .box-store-left {
+    float: left;
+    padding-bottom: 15px;
+}
+.box-store .box-store-left h2 {
+    margin: 0 0 10px;
+    font-size: 18px; 
+    text-transform: uppercase;
+}
+.box-store .box-store-left p {
+    margin-bottom: 5px;
+}
+.box-store .box-store-left span {
+    background: #39b54a;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.box-store .box-store-right {
+    float: right;
+    text-align: right;
+    padding-top: 25px;
+}
+.box-store .box-store-right ul {
+    border-top: 5px solid #ddd; 
+    padding-top: 15px;
+}
+.box-store .box-store-right ul li {
+    padding: 0 15px;
+    position: relative; 
+    color: #ddd; 
+}
+.box-store .box-store-right ul li.active {
+    color: #333;
+}
+.box-store .box-store-right ul li.active:before {
+    content: '';
+    background: url(../images/icon-car.png)no-repeat;
+    width: 28px;
+    height: 22px;
+    position: absolute;
+    top: -42px;
+    left: 35%;
+}
+.box-store .box-store-right ul li:after {
+    content: "\f054";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 20px;
+    color: #ddd;
+    position: absolute;
+    top: -27px;
+    right: -6px;
+}
+.box-store .box-store-right ul li:last-child:after {
+    display: none;
+}
+.box-order-second .title-order-bottom {
+    background: #ddd;
+    padding: 15px 50px 15px 0;
+    margin: 0px -15px -15px;
+    color: #333;
+    font-weight: bold;
+}
+.box-order-second .title-order-bottom .hoi-price {
+    padding-left: 35px;
+}
+/* End order */ 
+/* Van Don */
+.content-waybill {
+    width: 210mm; 
+    margin: 30px auto; 
+    background: #fff;
+} 
+.content-waybill .waybill-content .info-waybill-content {
+    padding: 10px; 
+    border: 1px solid #ddd;
+}
+.content-waybill .waybill-logo .logo-post {
+    width: 68px;
+    height: 45px; 
+    float: left;
+}
+.content-waybill .waybill-logo .logo-post a {
+    width: 68px;
+    height: 45px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.content-waybill .waybill-logo .logo-post img {
+    max-width: 68px;
+    max-height: 45px;
+}
+.content-waybill .waybill-logo .logo-bd {
+    width: 110px;
+    height: 30px; 
+}
+.content-waybill .waybill-logo .logo-bd a {
+    width: 110px;
+    height: 30px; 
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.content-waybill .waybill-logo .logo-bd img {
+    max-width: 110px;
+    max-height: 30px; 
+}
+.content-waybill .box-detail-waybill p {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+.content-waybill .img-barcode {
+    width: 100px;
+    height: 60px;
+    margin: 0 auto;
+}
+.content-waybill .img-barcode img {
+    width: 100%;
+}
+.content-waybill .box-waybill {
+	border-right: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+.content-waybill .waybill-left {
+	border-right: 1px solid #ddd;
+    width: 45%;
+    float: left;
+    font-size: 12px;
+    padding: 10px 10px 0; 
+    min-height: 66px;
+}
+.content-waybill .waybill-left ul li {
+	padding-bottom: 10px;
+}
+.content-waybill .waybill-left ul.box-weigh {
+	border-top: 1px solid #ddd; 
+	margin: 0 -10px;
+}
+.content-waybill .waybill-left ul.box-weigh li {
+	width: 50%;
+	float: left; 
+	padding: 10px;
+	border-right: 1px solid #ddd;
+}
+.content-waybill .waybill-left ul.box-weigh li:last-child {
+	border-right: none;
+}
+.content-waybill .waybill-right {
+	width: 55%;
+	float: right;
+	font-size: 12px;
+	padding: 10px 10px 0; 
+}
+.content-waybill .box-default {
+	display: inline-block;
+}
+.content-waybill .box-left {
+	float: left;
+}
+.content-waybill .box-waybill-bottom .waybill-pd0 {
+	min-height: 80px;
+} 
+.box-waybill-bottom .waybill-left h3 {
+    margin: 5px 0 15px;
+    font-size: 45px;
+    font-weight: bold;
+}
+.content-waybill .waybill-left.waybill-pd0 ul li {
+	padding-bottom: 0;
+}
+.content-waybill .box-center {
+	font-size: 24px;
+    padding: 0 0 0 25px;
+    font-weight: bold;
+}
+.content-waybill .box-right {
+	float: right;
+    border-left: 1px solid #ddd;
+    margin-right: -10px;
+    margin-top: -10px;
+}
+.content-waybill .box-right .img-barcode {
+	width: 60px;
+    height: 66px;
+    padding: 6px 3px 0 3px;
+}
+.content-waybill .box-waybill-bottom .waybill-mg0 .img-barcode {
+	margin: 0 auto 10px;
+} 
+.content-waybill .box-waybill-bottom .waybill-bottom-left {
+	display: inline-block;
+    border-right: 1px solid #ddd;
+    padding-right: 10px;
+} 
+.content-waybill .box-waybill-bottom .waybill-bottom-right {
+	float: right;
+	display: inline-block;
+}
+.content-waybill .box-waybill-bottom .waybill-bottom-right p {
+	margin-bottom: 0;
+}
+/* END Van Don */
+/*responsive*/
+@media (min-width: 1200px){
+}
+@media (max-width: 1199px){ 
+    .container {
+        width: 990px;
+    }
+}
+@media (min-width: 992px){
+}
+@media (max-width: 991px){ 
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 768px){
+}
+@media (max-width: 767px){ 
+    .container {
+        width: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    } 
+    .content-checkout-left form ul li {
+        width: 100%;
+    }
+    .content-checkout-history .list-history .fa-calendar {
+        position: absolute;
+        top: 33px;
+        right: 8px;
+        color: #c81623;
+    }
+    .content-checkout-history .list-history {
+        position: relative;
+        margin: 0;
+    }
+    .invoice-content {
+        width: 100%; 
+        padding: 10px;
+    }
+}
+@media (max-width: 736px){
+}
+@media (max-width: 667px){
+}
+@media (max-width: 640px){ 
+    .pay-left > ul > li p {
+        font-size: 13px;
+        margin: 0;
+        line-height: 20px;
+    }
+}
+@media (max-width: 533px){ 
+    .list-top-checkout ul li .chevron {
+        display: none;
+    }
+    .list-top-checkout .list-step .number {
+        display: none;
+    }
+    .pay-left > ul > li {
+        height: auto;
+    }
+    .infomation-invoice .info-saller {
+        width: 100%;
+    }
+    .top-invoice .invoice-logo,
+    .top-invoice .info-payment-right {
+        width: 100%;
+        text-align: left;
+    }
+    .invoice-logo .img-logo {
+        float: none;
+    }
+    .text-logo {
+        margin-left: 0;
+    }
+    .info-payment-right .payment {
+        width: 35%; 
+    }
+    .top-invoice .invoice-logo {
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 480px){ 
+    
+    
+}
+@media (max-width: 414px){ 
+    .list-top-checkout ul li {
+        width: 100%;
+        text-align: left;
+        padding-left: 15px;
+    }
+    .bg-line {
+        background: url(../images/triper.png) no-repeat -381px -3px;
+        height: 40px;
+        width: 1px;
+        position: absolute;
+        left: 65px;
+        top: 25px;
+    }
+    .icon-visa {
+        background: url(../images/triper.png) no-repeat -221px -19px;
+        height: 24px;
+        width: 32px;
+        position: absolute;
+        left: 15px;
+        top: 30px;
+    }
+}
+@media (max-width: 375px){
+    .bg-line,
+    .icon-visa,
+    .icon-atm,
+    .icon-transfer,
+    .icon-pay,
+    .icon-receiver {
+        display: none;
+    }
+    .pay-left > ul > li {
+        padding-left: 0;
+    }
+    .info-payment-right .payment {
+        width: 50%;
+    }
+    .info-saller .row-s label {
+        float: none;
+        font-weight: 700;
+    }
+}
+@media (max-width: 360px){  
+}
+@media (max-width: 320px){ 
+}
+/*end responsive*/

@@ -1,0 +1,78 @@
+/*---------- layout css ----------*/
+.bg-main{
+  background: $color-bg3;
+}
+.bg-facebook{
+  background: #3b5a9b;
+}
+.bg-google-plus{
+  background: #db2814;
+}
+.bg-instagram{
+  background: #336699;
+}
+.bg-zalo{
+  background: #0180c7;
+}
+.l-content{
+  padding: 15px 0;
+}
+.l-sidebar{
+
+}
+.l-main{
+  margin-bottom: 15px;
+}
+//layout responsive css
+@media (min-width: $screen-xs-small-min){
+
+}
+@media (min-width: $screen-sm-min){
+
+}
+@media (min-width: $screen-md-min){
+  .l-content{
+    padding: 20px 0;
+  }
+  .l-main{
+    margin-bottom: 0;
+    float: right;
+    width: 745px;
+    &.is-normal{
+      width: 705px;
+    }
+  }
+  .l-sidebar{
+    float: left;
+    width: 215px;
+    &.is-normal{
+      width: 250px;
+    }
+  }
+}
+@media (min-width: $screen-lg-min){
+  .l-content{
+    //padding: 25px 0;
+  }
+  .l-main{
+    width: 935px;
+    &.is-normal{
+      width: 895px;
+    }
+  }
+}
+@media (min-width: $screen-xl-min){
+  .l-sidebar{
+    &.is-normal{
+      width: 300px;
+    }
+  }
+  .l-main{
+    width: 1175px;
+    &.is-normal{
+      width: 1080px;
+    }
+  }
+}
+//layout responsive css
+/*---------- end layout css ----------*/

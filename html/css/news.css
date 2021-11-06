@@ -1,0 +1,132 @@
+a, button {
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+/*a {
+	color: #333;
+}*/
+.page-news {
+	background: #fff;
+}
+.title-content {
+	color: #c81623;
+	font-weight: 700;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+.img-news {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.img-news img {
+	width: 100%;
+} 
+.menu-left .dropdown-news { 
+	display: none;
+	padding: 0px 0px 10px 20px;
+}
+.menu-left .dropdown-news li {
+	padding: 5px 0px;
+}
+.menu-left > ul > li.selected > a  {
+	color: #c81623;
+}
+.menu-left .dropdown-news li:hover a,
+.menu-left .dropdown-news li.active a {
+	color: #333;
+	text-decoration: none;
+}
+.menu-left .dropdown-news li a {
+	color: #999;
+}
+.sidebox-news .menu-left > ul > li > a {
+	font-size: 14px;
+}
+/*responsive*/
+@media (min-width: 1200px){
+}
+@media (max-width: 1199px){
+	.box-search {
+	    width: 500px; 
+	}
+	.box-news-col12 .img-banner {
+		width: 750px; 
+		height: 290px;
+	}
+	.box-news-col12 .img-banner .info-img {
+	    width: 750px;
+	    height: 290px; 
+	}
+	.box-news-col12 .img-banner .info-img img {
+	    max-width: 750px;
+	    max-height: 290px; 
+	}
+	.box-news-col6 .img-banner {
+	    width: 375px;
+	    height: 190px;
+	}
+	.box-news-col6 .img-banner .info-img {
+	    width: 375px;
+	    height: 190px;	  
+	}
+	.box-news-col6 .img-banner .info-img img {
+	    max-width: 375px;
+	    max-height: 190px;	  
+	}
+}
+@media (min-width: 992px){
+}
+@media (max-width: 991px){
+	.box-news-col6 .img-banner {
+	    width: 360px;
+	    height: 190px;
+	}
+}
+@media (min-width: 768px){
+}
+@media (max-width: 767px){
+	.box-search {
+	    width: 100%;
+	    margin: 0px 0px 35px 0px;
+	}
+	.box-news-col6 .img-banner,
+	.box-news-col6 .img-banner .info-img,
+	.box-news-col12 .img-banner,
+	.box-news-col12 .img-banner .info-img {
+	    width: auto;
+	    height: auto;
+	} 
+	.box-news-col6 .img-banner .info-img img,
+	.box-news-col12 .img-banner .info-img img  {
+	    max-width: 100%;
+	    max-height: 100%;	  
+	}
+	.text-banner { 
+	    margin: -50px 10px 0; 
+	    padding: 0px 15px 15px;
+	}
+}
+@media (max-width: 736px){
+}
+@media (max-width: 667px){
+}
+@media (max-width: 640px){
+}
+@media (max-width: 533px){
+}
+@media (max-width: 480px){
+}
+@media (max-width: 414px){
+	.entry-title h2,
+	.box-news-col6 .entry-title h2 {
+	    font-size: 16px;
+	} 
+}
+@media (max-width: 375px){
+}
+@media (max-width: 360px){
+}
+@media (max-width: 320px){
+}
+/*end responsive*/

@@ -1,0 +1,427 @@
+.home-item {
+    margin: 0 auto;
+    width: 220px;
+    overflow: hidden; 
+}
+.home-item .hi-thumb {
+    width: 218px;
+    height: 218px;
+    margin: 0 auto 5px; 
+    position: relative; 
+    -webkit-transition: margin 0.5s ease;
+    -moz-transition: margin 0.5s ease;
+    transition: margin 0.5s ease;
+}
+.home-item .hi-thumb a {
+    width: 218px;
+    height: 218px;
+    display: block;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.home-item .hi-thumb a img {
+    max-width: 218px;
+    max-height: 218px;
+    webkit-transition: margin 0.5s ease;
+    -moz-transition: margin 0.5s ease;
+    transition: margin 0.5s ease;
+}
+.home-item .hi-sale { 
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    background: url(../images/triper.png) no-repeat -66px -43px;
+    width: 36px;
+    height: 40px;
+    text-align: center;
+    padding-top: 5px;
+    color: #fff;
+}
+.home-item .hi-title {
+    text-align: left;
+    height: 32px;
+    margin-bottom: 7px;
+    font-size: 12px;
+    padding: 0px 10px;
+}
+.box-category .bc-content ul li .home-item .hi-title {
+    height: 32px;
+    margin: 0;
+}
+/*.box-category .bc-content ul li .home-item .hi-title a {
+    height: 16px;
+    white-space: nowrap;
+}*/
+.home-item .hi-star {
+    padding: 0px 10px;
+    margin-bottom: 5px;
+}
+.home-item .hi-star .fa {
+    color: #d8d8d8;
+}
+.home-item .hi-title a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #333;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    display: block;
+    overflow: hidden;
+    height: 32px;
+    line-height: 16px;
+}
+.home-item .hoi-row { 
+    padding: 0px 10px;
+    margin-bottom: 0px; 
+}
+.box-category .bc-banner img {
+    width: 100%;
+    height: 561px;
+}
+
+/** 404 */
+.content-error {
+    background: #004689;
+    padding: 15px 0 15px 15px;
+    border-radius: 16px 0; 
+    margin-bottom: 50px;
+}
+.content-error .text-error {
+    float: left;
+    width: 40%;
+    height: 455px; 
+    color: #fff;
+}
+.content-error .text-error .info-text-error {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+.content-error .text-error .info-text-error .gr-text-error {
+    display: table-cell;
+    vertical-align: middle;
+}
+.content-error .text-error .info-text-error .gr-text-error h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.content-error .text-error .info-text-error .gr-text-error ul li {
+    padding-bottom: 10px;
+}
+.content-error .img-error {
+    padding: 0;
+    float: right;
+}
+.content-error .img-error img {
+    max-width: 100%;
+}
+.btn-button-gr {
+    display: inline-block;
+    position: relative;
+    margin-left: 5px;
+}
+.btn-button-gr:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #f8b31b;
+    position: absolute;
+    left: -5px;
+    top: 0;
+    border-radius: 0 16px;
+    z-index: 1;
+}
+.btn-button-gr:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 0 16px;
+    z-index: 2;
+}
+.btn-button-gr .btn-back {
+    background: transparent;
+    z-index: 3;
+    position: relative;
+    color: #333;
+}
+/* END 404 */
+.icon-home {
+    background: url(../images/triper.png) no-repeat -239px -93px;
+    width: 52px;
+    height: 52px;
+    position: absolute;
+}
+.icon-search {
+    background: url(../images/triper.png) no-repeat -291px -93px;
+    width: 52px;
+    height: 52px;
+    position: absolute;
+}
+.icon-tel {
+    background: url(../images/triper.png) no-repeat -345px -90px;
+    width: 52px;
+    height: 52px;
+    position: absolute;
+}
+/* User */
+.main-content-user {
+    background: #fff;
+    border-radius: 16px 0;
+    padding: 10px;
+}
+.content-user .box-infomation {
+    padding: 0 15px 15px;
+    margin-bottom: 30px;
+}
+.content-user .box-infomation:last-child {
+    margin-bottom: 0; 
+}
+.box-infomation h3 {
+    position: relative;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 40px;
+}
+.box-infomation h3:before {
+    content: '';
+    width: 50px;
+    height: 3px;
+    background: #004689;
+    position: absolute;
+    bottom: -10px;
+}
+.box-infomation h3:after {
+    content: '';
+    background: url(../images/user.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 0;
+    top: -10px;
+}
+.main-content-history .box-bill-history h3:after {
+    content: '';
+    background: url(../images/bill-history.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 0;
+    top: -10px;
+}
+.main-content-history .list-history {
+    margin-right: 15px;
+    position: relative;
+} 
+.main-content-history .list-history .fa-calendar {
+    color: #004689;
+}
+.main-content-history.main-content-history .button-bottom {
+    border-top: none;
+    padding: 0;
+}
+.main-content-history .table-bordered > tbody > tr > td {
+    vertical-align: middle;
+}
+.main-content-history .table > thead:first-child > tr:first-child > th {
+    background: #ececec;
+    border-bottom: none;
+    font-weight: normal;
+}
+.box-infomation.box-delivery h3:after {
+    content: '';
+    background: url(../images/icon-map.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 0;
+    top: -10px;
+}
+.content-user .box-infomation .form-group label {
+    text-align: left;
+    font-weight: normal;
+}
+.content-user .box-infomation .form-group .icon-click {
+    display: inline-block;
+    cursor: pointer;
+    padding-top: 7px;
+    font-size: 16px;
+}
+.box-infomation .input-bd {
+    border: none;
+    background: #ececec;
+}
+.main-content-user .button-bottom {
+    border-top: 1px solid #ddd;
+    padding: 15px 0 0;
+}
+.main-content-user .button-bottom .btn-change {
+    position: relative;
+    min-width: 120px;
+    height: 40px;
+    color: #fff;
+    background: transparent;
+    font-weight: normal;
+}
+.main-content-user .button-bottom .btn-change span {
+    position: relative;
+    z-index: 3; 
+}
+.main-content-user .button-bottom .btn-change:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #f8b31b;
+    position: absolute;
+    left: -5px;
+    top: 0;
+    border-radius: 0 16px;
+    z-index: 1;
+}
+.main-content-user .button-bottom .btn-change:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #004689;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 0 16px;
+    z-index: 2;
+}
+/* END User */
+/* PRinter */
+.print-header{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.print-header .print-left{
+    width: 50%;
+    float: left;
+}
+.print-header .print-left .pl-logo{
+    width: 165px;
+}
+.print-header .print-left .pl-logo a img{
+    width: 100%
+}
+.print-header .print-right{
+    float: right;
+}
+.print-header .print-right .pr-qrcode{
+    width: 300px;
+}
+.print-header .print-right .pr-qrcode img{
+    width: 100%;
+}
+.print-title{
+    width: 100%;
+    text-align: center;
+}
+.print-title h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+}
+.print-profile table{
+    margin-bottom: 20px;
+}
+.print-profile table tbody tr td{
+    padding: 10px 0; 
+}
+.print-profile table tbody tr td p{
+    margin-bottom: 0;
+}
+.big-text{
+    font-size: 24px;
+}
+.print-price table thead th{
+    padding: 10px; 
+}
+.print-price table tbody tr td{
+    padding: 10px; 
+}
+.print-price tfoot tr td {
+    padding-top: 10px;
+}
+.print-price table tbody tr:nth-child(odd){
+    background: #f2f2f2
+}
+.print-price table tbody tr:nth-child(even){
+    background: #fff
+}
+.print-noti{
+    margin: 20px 0;
+}
+/* END Printer */
+@media (max-width: 1199px){
+    .main-error-right {
+        margin-left: 45%;
+        padding-top: 75px;
+    }
+}
+@media (max-width: 991px){
+    .main-error-right .list-back-error li {
+        padding-right: 45px;
+    }
+}
+@media (max-width: 767px){
+    .main-content-history .list-history .fa-calendar {
+        position: absolute;
+        right: 10px;
+        top: 30px;
+    }
+    .content-error .text-error {
+        float: none;
+        width: 100%;
+        height: auto;
+        color: #fff;
+    }
+    .content-error .text-error .info-text-error .gr-text-error {
+        vertical-align: top;
+    }
+    .content-error .img-error {
+        float: none;
+        text-align: center;
+    }
+}
+@media (max-width: 640px){
+    .main-error-right {
+        margin-left: 45%;
+        padding-top: 0;
+    }
+    .main-error-right .list-back-error li {
+        padding-right: 20px;
+    }
+}
+@media (max-width: 533px){
+}
+@media (max-width: 480px){
+    .main-error-right .list-back-error li {
+        padding-right: 10px;
+    }
+}
+@media (max-width: 414px){
+    .error-left {
+        width: 101%;
+        float: none;
+    }
+    .main-error-right {
+        margin-left: 0;
+        padding-top: 15px;
+    }
+}
+@media (max-width: 375px){
+}
+@media (max-width: 360px){
+}
+@media (max-width: 320px){
+}
+/* End 404 */

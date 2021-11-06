@@ -1,0 +1,118 @@
+/*---------- user css ----------*/
+.c-user-form{
+  max-width: 540px;
+  margin: 0 auto;
+  padding-top: 10px;
+  h4{
+    margin-top: 0;
+    font-weight: 700;
+    .fa{
+      margin-right: 10px;
+      font-size: 20px;
+      color: $color-primary;
+    }
+  }
+}
+.c-table-user{
+  >thead{
+    >tr{
+      >th{
+        text-align: center;
+        vertical-align: middle;
+        background: $color-bg3;
+        border-bottom-width: 1px;
+        font-weight: 400;
+      }
+    }
+  }
+  >tbody{
+    >tr{
+      >td{
+        text-align: center;
+        vertical-align: middle;
+        &.text-left{
+          text-align: left;
+        }
+      }
+    }
+  }
+  p{
+    margin: 0;
+  }
+}
+.c-bill-filter{
+  label{
+    margin-right: 5px;
+  }
+  select.form-control{
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    min-width: 150px;
+  }
+}
+.c-table-bill{
+  .b-grid{
+    text-align: left;
+    min-height: 50px;
+    margin-bottom: 10px;
+    min-width: 230px;
+    border-bottom: 1px solid $color-border;
+    padding-bottom: 10px;
+    &:last-child{
+      margin-bottom: 0;
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+    *{
+      white-space: normal;
+    }
+    .b-grid__img{
+      width: 50px;
+      height: 50px;
+      img{
+        width: 50px;
+        min-height: 50px;
+      }
+    }
+    .b-grid__content{
+      margin-left: 62px;
+    }
+    .b-grid__title{
+      color: $color-text;
+      text-decoration: none;
+      font-weight: 400;
+      &:hover{
+        color: $color-primary;
+      }
+    }
+  }
+  .btn{
+    width: 75px;
+    margin-top: 5px;
+  }
+  .label{
+    display: block;
+    font-size: 13px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+  }
+}
+//user responsive css
+@media (min-width: $screen-xs-small-min){// mobile lanscape
+
+}
+@media (min-width: $screen-sm-min){// ipad 768px
+
+}
+@media (min-width: $screen-md-min){//pc 1024px up
+
+}
+@media (min-width: $screen-lg-min){//pc 1200px up
+
+}
+@media (min-width: $screen-xl-min){//pc 1440px up
+
+}
+//end user responsive css
+/*---------- end user css ----------*/

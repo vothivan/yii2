@@ -1,0 +1,30 @@
+@media print {
+    @page {
+        size: landscape;
+        margin: 0;
+    }
+}
+
+body {
+    margin: 0px;
+    padding: 8px 40px 8px 40px;
+}
+
+.label {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.label p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.label .name {
+    font-size: 16px;
+}
+
+.label .address, .label .phone {
+    font-size: 12px;
+}
