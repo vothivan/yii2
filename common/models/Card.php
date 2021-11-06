@@ -33,9 +33,9 @@ class Card extends \yii\db\ActiveRecord
         return [
             [['name','price','denomination','carrier','code','seri','expiry'], 'required'],
             [['price','denomination'], 'integer'],
-            [['seri',], 'string', 'max' <= 11, 'min' => 11],
-            [['code',], 'string', 'max' <= 13, 'min' => 13],
-            [['name',], 'string', 'max' => 250],
+            [['seri',], 'string','max' => 11, 'min' => 11],
+            [['code',], 'string', 'max' => 13,'min' => 13],
+            [['name',], 'string', 'min' =>  5],
         ];
     }
 
